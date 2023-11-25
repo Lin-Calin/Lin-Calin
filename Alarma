@@ -1,0 +1,16 @@
+import datetime
+
+alarmHour = int(input("Introdu ora"))
+alarmMinute = int(input("Introdu minutele"))
+ampm = str(input("am sau pm"))
+
+if(ampm == "pm"):
+    alarmHour = alarmHour + 12
+    
+while (1 == 1):
+    if(alarmHour == datetime.datetime.now().hour and
+       alarmMinute == datetime.datetime.now().minute):
+        print('ESTE TIMPUL SA TE TREZESTI \U0001F62D' )
+        break
+print("iesire")
+    
