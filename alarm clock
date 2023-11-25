@@ -10,7 +10,7 @@ if(ampm == "pm"):
 while (1 == 1):
     if(alarmHour == datetime.datetime.now().hour and
        alarmMinute == datetime.datetime.now().minute):
-        print('ESTE TIMPUL SA TE TREZESTI \U0001F62D' )
+        print('IT'S TIME TO WAKE UP \U0001F62D' )
         break
 print("iesire")
     
