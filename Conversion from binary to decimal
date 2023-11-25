@@ -1,5 +1,5 @@
 
-num = int(input( "Introducet numarul binar : "))
+num = int(input( "Enter the binary number : "))
 
 sum = 0
 A =0
@@ -8,4 +8,4 @@ while num!=0:
     sum= sum + rem * pow(2,A)
     num =  int(num/10)
     A = A + 1
-print("numarul zecimal este : ",sum);
+print("The decimal number is : ",sum);
