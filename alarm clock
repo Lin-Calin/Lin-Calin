@@ -2,7 +2,7 @@ import datetime
 
 alarmHour = int(input("Enter the hour"))
 alarmMinute = int(input("Enter the minutes"))
-ampm = str(input("am sau pm"))
+ampm = str(input("am or pm"))
 
 if(ampm == "pm"):
     alarmHour = alarmHour + 12
