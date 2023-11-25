@@ -1,0 +1,11 @@
+
+num = int(input( "Introducet numarul binar : "))
+
+sum = 0
+A =0
+while num!=0:
+    rem = num %10
+    sum= sum + rem * pow(2,A)
+    num =  int(num/10)
+    A = A + 1
+print("numarul zecimal este : ",sum);
