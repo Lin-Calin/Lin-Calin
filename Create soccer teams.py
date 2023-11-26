@@ -120,7 +120,7 @@ class FootballTeamApp:
             teams = [self.players[i:i + 5] for i in range(0, len(self.players), 5)] # Dividing the players into teams of 5
 
             # Team sorting based on total strength
-            teams.sort(key=lambda team: sum(1 if level == 'ncepator' else 2 if level == 'mediu' else 3 if level == 'avansat' else 4 for _, level in team))
+            teams.sort(key=lambda team: sum(1 if level == 'Benger' else 2 if level == 'Medium' else 3 if level == 'Advance' else 4 for _, level in team))
 
             self.team1_listbox.delete(0, tk.END)
             self.team2_listbox.delete(0, tk.END)
