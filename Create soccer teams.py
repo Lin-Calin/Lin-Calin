@@ -50,7 +50,7 @@ class FootballTeamApp:
         self.level_buttons_frame = tk.Frame(root)
         self.level_buttons_frame.pack()
 
-        levels = ["ncepator", "mediu", "avansat", "expert"]
+        levels = ["Benger", "Medium", "Advance", "Expert"]
         self.level_buttons = []
         for level in levels:
             button = tk.Button(self.level_buttons_frame, text=level, command=lambda l=level: self.set_player_level(l))
