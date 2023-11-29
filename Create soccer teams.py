@@ -96,7 +96,7 @@ class FootballTeamApp:
             del self.players[index]
 
     def calculate_total_level(self, team_players):
-        return sum(1 if level == 'ncepator' else 2 if level == 'mediu' else 3 if level == 'avansat' else 4 for _, level in team_players)
+        return sum(1 if level == 'Benger' else 2 if level == 'Mediu' else 3 if level == 'Avance' else 4 for _, level in team_players)
 
     def display_teams(self):
         team1_players = self.team1_listbox.get(0, tk.END)
