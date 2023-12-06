@@ -12,5 +12,5 @@ while (1 == 1):
             alarmMinute == datetime.datetime.now().minute):
         print('IT IS TIME TO WAKE UP \U0001F62D')
         break
-print("iesire")
+print("EXIT")
 
